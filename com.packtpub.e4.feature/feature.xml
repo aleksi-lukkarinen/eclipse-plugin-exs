@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.packtpub.e4.feature"
+      label="Feature"
+      version="1.2.3.qualifier"
+      provider-name="PACKTPUB"
+      plugin="com.packtpub.e4.clock.ui">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui.views" version="3.8.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.11.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.expressions"/> 
+      <import feature="org.eclipse.jgit" version="4.4.0.201606070830-r" />
+   </requires>
+
+   <plugin
+         id="com.packtpub.e4.application"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false" />
+
+</feature>

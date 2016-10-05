@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.packtpub.e4.parent/com.packtpub.e4.update/site.xml&apos; to &apos;category.xml&apos;" description="Rename resource &apos;site.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="com.packtpub.e4.update/site.xml" name="category.xml" stamp="1473940800372" updateReferences="true"/>
+</session>

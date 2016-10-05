@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1473351345802'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='16'>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.linux.ppc64' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='32677'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.hpux.ia64' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='15830'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.win32.win32.x86' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='31738'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.linux.x86' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='30941'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.rcp_root' version='4.6.0.v20160606-1342'>
+      <properties size='1'>
+        <property name='download.size' value='27703'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.linux.x86_64' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='31956'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.aix.ppc64' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='252383'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.solaris.x86_64' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='13505'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.cocoa.macosx.x86_64' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='10977'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.linux.s390x' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='34081'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.linux.ppc' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='34062'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.win32.win32.x86_64' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='35211'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.linux.ppc64le' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='34697'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.solaris.sparcv9' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='16728'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.aix.ppc' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='247872'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.equinox.executable_root.gtk.linux.s390' version='3.6.300.v20160525-1303'>
+      <properties size='1'>
+        <property name='download.size' value='33351'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

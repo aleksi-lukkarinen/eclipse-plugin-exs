@@ -1,1 +1,13 @@
+#
+# File ignoration patterns for Git
+#
 
+/*/bin/*
+/*/screenshots/*
+/*/target/*
+
+**/.history/*
+
+**/*.bak
+**/*.log
+**/*~

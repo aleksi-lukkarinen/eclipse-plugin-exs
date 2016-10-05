@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.packtpub.e4.minimark.ui.MinimarkEditor"
+            default="false"
+            extensions="minimark"
+            id="com.packtpub.e4.minimark.ui.minimarkeditor"
+            name="Minimark">
+      </editor>
+   </extension>
+   <extension
+         id="MinimarkBuilder"
+         point="org.eclipse.core.resources.builders">
+      <builder
+            hasNature="false">
+         <run
+               class="com.packtpub.e4.minimark.ui.MinimarkBuilder">
+         </run></builder>
+   </extension>
+   <extension
+         id="MinimarkNature"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="com.packtpub.e4.minimark.ui.MinimarkNature">
+         </run>
+      </runtime>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="com.packtpub.e4.minimark.ui.AddMinimarkHandler"
+            id="com.packtpub.e4.minimark.ui.AddMinimarkNature"
+            name="Add Minimark Nature">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.ui.projectConfigure?after=additions">
+         <command
+               commandId="com.packtpub.e4.minimark.ui.AddMinimarkNature"
+               label="Add Minimark Nature"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         id="com.packtpub.e4.minimark.ui.MinimarkMarker"
+         name="Minimark Marker"
+         point="org.eclipse.core.resources.markers">
+      <persistent
+            value="false">
+      </persistent>
+      <super
+            type="org.eclipse.core.resources.problemmarker">
+      </super>
+   </extension>
+
+</plugin>

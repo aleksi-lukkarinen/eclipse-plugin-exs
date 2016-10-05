@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;com.packtpub.e4.junit.plugin&apos;&#x0D;&#x0A;- Original project: &apos;com.packtpub.e4.junit.plugin&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.packtpub.e4.junit.plugin.UITest.jpeg&#x0D;&#x0A;     createProject(com.packtpub.e4.junit.plugin.UITest).jpeg" description="Delete elements" element1="screenshots/com.packtpub.e4.junit.plugin.UITest.jpeg" element2="screenshots/createProject(com.packtpub.e4.junit.plugin.UITest).jpeg" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1473774372618" subPackages="false" version="1.0"/>
+</session>

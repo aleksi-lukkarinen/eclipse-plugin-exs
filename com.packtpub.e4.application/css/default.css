@@ -1,0 +1,12 @@
+#com-packtpub-e4-application-part-0 {
+	background-color: red orange yellow green blue indigo violet
+	                  15% 30%    45%    60%   75%  90%;
+}
+
+Label {
+	swt-alignment: right;
+	color: white;
+	font-family: "Times New Roman";
+	font-size: 42pt;
+	font-style: italic;
+}

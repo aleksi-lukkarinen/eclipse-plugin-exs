@@ -1,0 +1,9 @@
+1472476288861	Infer generic type arguments
+1472476597637	Infer generic type arguments
+1472486052982	Rename local variable 'compare'
+1472486614231	Extract method 'createImageRegistry'
+1472486677042	Extract method 'initImageRegistry'
+1472486719812	Extract method 'createTreeViewer'
+1472650671083	Copy compilation unit
+1472650923073	Copy compilation unit
+1472651303780	Copy compilation unit

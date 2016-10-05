@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="initLaunch"/>
+	<item value="3.5 or greater" key="targetName"/>
+	<item value="true" key="uiPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="osgiProject"/>
+	<item value="true" key="generatePluginActivator"/>
+	<item value="2" key="org.eclipse.pde.ui.synchronizeFeatueEnvironment.mode"/>
+	<list key="providers">
+		<item value="PACKTPUB"/>
+		<item value="EXAMPLE"/>
+	</list>
+	<section name="org.eclipse.pde.ui.dialogs.FeatureSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="668" key="DIALOG_X_ORIGIN"/>
+			<item value="255" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="PDEFormActionManager">
+		<list key="RecentLaunches">
+			<item value="org.eclipse.pde.ui.runtimeWorkbenchShortcut"/>
+		</list>
+	</section>
+	<section name="JavaAttributeWizard">
+		<section name="NewClassWizardPage">
+			<item value="false" key="create_constructor"/>
+			<item value="true" key="create_unimplemented"/>
+		</section>
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="556" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="523" key="DIALOG_HEIGHT"/>
+			<item value="668" key="DIALOG_X_ORIGIN"/>
+			<item value="255" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="ProductExportWizard">
+		<item value="C:\Users\Aleksi\Desktop\Temppi" key="destination0"/>
+		<item value="true" key="syncProduct"/>
+		<item value="C:\Users\Aleksi\Desktop\Temppi" key="destination1"/>
+		<item value="linux (gtk/x86),linux (gtk/x86_64),macosx (cocoa/x86_64),win32 (win32/x86),win32 (win32/x86_64)" key="cross-platform"/>
+		<item value="Generate source bundles" key="exportSourceFormat"/>
+		<item value="eclipse" key="productRoot"/>
+		<item value="true" key="multiplatform"/>
+		<item value="/com.packtpub.e4.headless.application/headless.product" key="productConfig0"/>
+		<item value="false" key="exportSource"/>
+		<item value="true" key="exportDirectory"/>
+		<item value="true" key="allowBinaryCycles"/>
+		<item value="/com.packtpub.e4.headless.application/headless.product" key="productConfig1"/>
+		<item value="false" key="p2metadata"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="TracingTab">
+		<item value="org.eclipse.ui" key="selectedPlugin"/>
+	</section>
+	<section name="FeatureExportWizard">
+		<item value="C:\Users\Aleksi\Desktop\Temppi" key="destination0"/>
+		<item value="C:\Users\Aleksi\Desktop\Temppi" key="destination1"/>
+		<item value="" key="keypass"/>
+		<item value="" key="siteURL"/>
+		<item value="true" key="create_categories"/>
+		<item value="Generate source bundles" key="exportSourceFormat"/>
+		<item value="false" key="signJAR"/>
+		<item value="true" key="exportUpdate"/>
+		<item value="false" key="saveAsAnt"/>
+		<item value="false" key="exportSource"/>
+		<item value="" key="category_file"/>
+		<item value="true" key="allowBinaryCycles"/>
+		<item value="" key="password"/>
+		<item value="201609081631" key="qualifierName"/>
+		<item value="false" key="useWorkspaceCompiledClasses"/>
+		<item value="1" key="exportType"/>
+		<item value="false" key="qualifier"/>
+		<item value="" key="alias"/>
+		<item value="false" key="jnlp"/>
+		<item value="" key="keystore"/>
+		<item value="" key="jre"/>
+		<item value="true" key="p2metadata"/>
+	</section>
+	<section name="targetStateView">
+	</section>
+	<section name="editBundleContainerWizard">
+	</section>
+</section>

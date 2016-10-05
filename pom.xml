@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.packtpub.e4</groupId>
+	<artifactId>com.packtpub.e4.parent</artifactId>
+	<version>1.2.3-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+    <properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <tycho-version>0.26.0</tycho-version>
+        <eclipse-repo>http://download.eclipse.org/releases/neon</eclipse-repo>
+        <swtbot-repo>http://download.eclipse.org/technology/swtbot/releases/latest/</swtbot-repo>
+    </properties>
+
+	<modules>
+		<module>com.packtpub.e4.application</module>
+		<module>com.packtpub.e4.clock.ui</module>
+		<module>com.packtpub.e4.feature</module>
+		<module>com.packtpub.e4.junit.plugin</module>
+		<module>com.packtpub.e4.product</module>
+		<module>com.packtpub.e4.update</module>
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+
+				<configuration>
+					<pomDependencies>consider</pomDependencies>
+					<environments>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<!-- 16.9.2016: 32-bit builds are no longer supported for Mac OS X -->
+<!--
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86_64</arch>
+						</environment>
+-->
+					</environments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>sign</id>
+
+			<activation>
+				<property>
+					<name>jarsigner.alias</name>
+				</property>
+			</activation>
+
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-jarsigner-plugin</artifactId>
+						<version>1.2</version>
+						
+						<executions>
+							<execution>
+								<id>sign</id>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<repositories>
+		<repository>
+			<id>eclipse-repo</id>
+			<layout>p2</layout>
+			<url>${eclipse-repo}</url>
+		</repository>
+		<repository>
+			<id>swtbot-repo</id>
+			<layout>p2</layout>
+			<url>${swtbot-repo}</url>
+		</repository>
+	</repositories>
+
+</project>

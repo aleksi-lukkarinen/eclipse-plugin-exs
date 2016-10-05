@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<booleanAttribute key="append.args" value="true"/>
+<stringAttribute key="application" value="com.packtpub.e4.headless.application.id2"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="default" value="false"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-com.packtpub.e4.headless.application.id2"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<booleanAttribute key="pde.generated.config" value="true"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="selected_target_plugins" value="javax.inject*1.0.0.v20091030,javax.servlet*3.1.0.v201410161800,javax.xml*1.3.4.v201005080400,org.eclipse.core.contenttype*3.5.100.v20160418-1621,org.eclipse.core.jobs*3.8.0.v20160509-0411,org.eclipse.core.runtime*3.12.0.v20160606-1342,org.eclipse.equinox.app*1.3.400.v20150715-1528,org.eclipse.equinox.common*3.8.0.v20160509-1230,org.eclipse.equinox.preferences*3.6.0.v20160120-1756,org.eclipse.equinox.registry*3.6.100.v20160223-2218,org.eclipse.osgi*3.11.0.v20160603-1336,org.eclipse.osgi.compatibility.state*1.0.200.v20160504-1419,org.eclipse.osgi.services*3.5.100.v20160504-1419"/>
+<stringAttribute key="selected_workspace_plugins" value="com.packtpub.e4.headless.application*1.0.0.qualifier"/>
+<booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

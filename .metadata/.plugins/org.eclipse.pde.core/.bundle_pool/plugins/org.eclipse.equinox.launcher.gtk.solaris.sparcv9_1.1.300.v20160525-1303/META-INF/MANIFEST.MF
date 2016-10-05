@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.equinox.launcher.gtk.solaris.sparcv9;
+ singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: e4Build
+Bundle-ManifestVersion: 2
+Eclipse-PlatformFilter: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=
+ sparcv9))
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/equino
+ x/rt.equinox.framework.git;path="bundles/org.eclipse.equinox.launcher
+ .gtk.solaris.sparcv9";tag="I20160525-2000";commitId=f355e41034d9d0a29
+ 69dc9331f910da7a7e8d565
+Bundle-Vendor: %providerName
+Fragment-Host: org.eclipse.equinox.launcher;bundle-version="[1.0.0,1.4
+ .0)"
+Bundle-Name: %pluginName
+Bundle-Version: 1.1.300.v20160525-1303
+Bundle-Localization: launcher.gtk.solaris.sparcv9
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_51
+Eclipse-BundleShape: dir
+
+Name: about.html
+SHA-256-Digest: VPMitIIkEm99NLfkFf/bqCv7gqDh+SdCqyIrbu4QETQ=
+
+Name: launcher.gtk.solaris.sparcv9.properties
+SHA-256-Digest: R76iYD2C4i0GN4sHFhIwVZGNVDnRBhf5810OBQUji9M=
+
+Name: eclipse_1617.so
+SHA-256-Digest: FDmLNbGbRvXBEqkXFWJjhJprnTspNkIST4KBoQfN3jk=
+
